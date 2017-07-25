@@ -1,0 +1,81 @@
+/*Reward Style Start*/
+.dotted-box.padding0, .dotted-box-yellow.padding0{
+	padding: 0px;
+}
+.dotted-box-yellow {
+    border-radius: 10px;
+    border: 2px dotted #F1CCAD;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.reward-box-blue{
+	padding: 15px 5px;
+	border-top-left-radius: 10px;	
+	border-top-right-radius: 10px;	
+	background: #E0F5F6;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-bottom: 2px dotted #9cd4e0;
+}
+.reward-box-yellow{
+	padding: 15px 5px;
+	border-top-left-radius: 10px;	
+	border-top-right-radius: 10px;	
+	background: #FEF1E8;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-bottom: 2px dotted #F1CCAD;
+}
+.top5{
+	top: 5px;
+}
+.reward-star{
+	top: -2px;
+    position: relative;
+}
+.reward-gift{
+	position: absolute;
+    top: -32px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reward-row{
+	display: flex;
+    flex-direction: row;
+}
+.reward-col{
+	display: flex;
+    align-items: center;
+}
+.justify-content{
+	justify-content: flex-end;
+}
+/*Reward Style End*/
+/*MediaQuery For Mobile Device Start*/
+@media only screen and (min-width: 768px) {
+	.dd-width200{
+		width: 200px;
+	}
+}
+/*MediaQuery For Mobile Device end*/
+
+/*MediaQuery For Mobile Device Start*/
+@media only screen and (max-width: 767px) {
+	.reward-row{
+		display: block;
+		flex-direction: row;
+	}
+	.justify-content{
+		justify-content: flex-start;
+	}
+	.xs-margin-left0{
+		margin-left: 0px;
+	}
+	.xs-display-block{
+		display: block;
+	}
+}
+/*MediaQuery For Mobile Device end*/
